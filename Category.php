@@ -5,7 +5,7 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>Menu</span> 
+                            <span>ATN Shop</span> 
                         </div>
                         <ul>
                         <li ><a  href="?page=pm">All</a></li>

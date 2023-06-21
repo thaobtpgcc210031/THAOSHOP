@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Shopping Online</h2>                        
+                        <h2>ATN Shop</h2>                        
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@
     <meta name="description" content="ShoppingOnline">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shopping</title>
+    <title>ATN Shop</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/nhap.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="img/shoppinglogo.png">
+   
 </head>
 
 
@@ -45,7 +46,7 @@ include_once("connect.php");
               </td>
               <td>
              
-              <a href="?page=logout"><a></a> --Log Out </a>
+              <a href="?page=logout"><a></a> Log Out </a>
                </td>
                  </tr>
                </table>
@@ -61,6 +62,7 @@ include_once("connect.php");
       </td>
            <td>
           <a href="?page=register" style="padding: 10px;" > Register</a>
+
         </td>                      
          </tr>
        </table>
@@ -78,6 +80,7 @@ include_once("connect.php");
                         
                         <li><a href="?page=shopping-cart">Shoping Cart</a></li>
                         <li><a href="?page=checkout">Check Out</a></li>
+
                         
                     </ul>
                 </li>
@@ -88,9 +91,13 @@ include_once("connect.php");
         
         <div class="col-lg-3">
                     <div class="hero__categories">
+
                         <div class="hero__categories__all">
+                           <i class="imgindex">
+                            <img src="img/conten conten.jpg" alt="">
+                           </i>
                             <i class="fa fa-bars"></i>
-                            <span>Menu</span>
+                            <span>ATN Shop</span>
                         </div>
                         <ul>
                         <?php Department($conn); ?>
